@@ -41,3 +41,33 @@ AI-Research-Assistant/
 ├── .env.example
 ├── .gitignore
 └── README.md
+
+## Run the Project
+
+Step 1: Open terminal inside the project folder
+
+Step 2: Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Step 3: Create a `.env` file and add your Google Gemini API key
+
+```txt
+GOOGLE_API_KEY=your_api_key_here
+```
+
+Step 4: Run the project
+
+```bash
+python main.py
+```
+
+Step 5: Enter your query in the terminal
+
+Example:
+
+```txt
+Ask anything: What is Artificial Intelligence?
+```
